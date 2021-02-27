@@ -1,0 +1,14 @@
+
+        body{
+            background-color: black;
+            opacity: 0.5;
+        }
+        .categories ul li a::before{
+            content:'';
+            border-bottom: 2px solid #F0116E;
+            width: 45px;
+            position: absolute;
+            left: -1px;
+            top:11px;
+        }
+        
